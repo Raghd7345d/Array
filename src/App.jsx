@@ -10,6 +10,12 @@ function FilterButton() {
   const isActive = (filter) => {
     return filter === activeFilter ? "active" : "";
   };
+  const [users, setUsers] =useState([
+    {name : "Raghd", gender: "famale", age: 28}
+    {name : "Peter", gender: "male", age: 40}
+    {name : "Falk", gender: "male", age: 40}
+
+  ])
   return (
     <>
       <div>
